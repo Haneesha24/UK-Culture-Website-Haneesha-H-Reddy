@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tarkali Unveiled</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #confirmation {
+            display: none;
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+    
+* {
+  box-sizing: border-box;
+}
+
+.auto-style15 {
+	margin-right: 82px;
+	font-size: 16pt;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.auto-style10 {
+	text-decoration: none;
+}
+.auto-style9 {
+	color: #000000;
+	font-size: 16pt;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.auto-style13 {
+	margin-right: 82px;
+	font-size: 16pt;
+	text-align: center;
+}
+.auto-style12 {
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.auto-style16 {
+	color: #000000;
+}
+.auto-style14 {
+	margin-right: 82px;
+	text-align: center;
+}
+
+		 .auto-style5 {
+			 font-family: Georgia, "Times New Roman", Times, serif;
+			 font-size: 32pt;
+			 text-align: center;
+		 }
+		 .auto-style4 {
+			 text-align: center;
+		 }
+		 </style>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Home Page</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+
+<table style="width: 1180px">
+	<tr>
+		<td class="auto-style1" style="width: 93px">
+
+<table style="width: 1587%">
+	<tr>
+		<td class="auto-style15" style="width: 165px">
+		<a class="auto-style10" href="Home%20Page.html">
+		<span class="auto-style9">Home Page</span></a></td>
+		<td class="auto-style13" style="width: 135px">
+		<a class="auto-style10" href="UK%20Culture.html">
+		<span class="auto-style12">Culture</span></a></td>
+		<td class="auto-style15" style="width: 159px">
+		<a class="auto-style10" href="Food.html"><span class="auto-style16">Food</span></a> </td>
+		<td class="auto-style15" style="width: 328px">
+		<a class="auto-style10" href="Summary%20in%20Spanish.html">
+		<span class="auto-style16">Summary in Spanish</span> </a> </td>
+		<td class="auto-style15" style="width: 204px">
+		<a class="auto-style10" href="Monarchy.html"><span class="auto-style16">Monarchy</span></a></td>
+		<td class="auto-style15" style="width: 144px">
+		<a class="auto-style10" href="About%20Us.html">
+		<span class="auto-style16">About Us</span>&nbsp;</a> </td>
+		<td class="auto-style14">
+		<a class="auto-style10" href="Contact%20us.html">
+		<span class="auto-style9">Contact Us</span></a></td>
+	</tr>
+</table>
+
+		</td>
+		
+	</tr>
+</table>
+
+<html>
+    <body>
+         <h1 class="auto-style5">Contact US</h1>
+		 <p class="auto-style5">
+		 <img alt="" height="200" src="contact-us-concept.jpg" width="341" /></p>
+		 <form action="../../Documents/MYP%203B/Design/SEM%201/Design%20E-Portfolio/result.html" method="POST">
+             <div class="auto-style4">
+				 </div>
+        </form>
+    </body>
+</html>
+<html lang="en">
+
+<body>
+    <div id="confirmation"></div>
+
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <script>
+        function submitForm() {
+            // Get form data
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+            var message = document.getElementById("message").value;
+
+            // Hide the form
+            var form = document.getElementById("contactForm");
+            form.style.display = "none";
+
+            // Display confirmation
+            var confirmationDiv = document.getElementById("confirmation");
+            confirmationDiv.innerHTML = "<h3>Thank you for reaching out!</h3>" +
+                "<p>Name: " + name + "</p>" +
+                "<p>Email: " + email + "</p>" +
+                "<p>Phone: " + phone + "</p>" +
+                "<p>Message: " + message + "</p>";
+
+            confirmationDiv.style.display = "block";
+        }
+    </script>
+	<p>&nbsp;</p>
+</body>
+
+</html>
